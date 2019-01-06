@@ -1,0 +1,30 @@
+{
+  "defaults": {
+    "protocol": "http",
+    "host": "localhost:3000",
+    "state": true,
+    "transport": "session"
+  },
+  "github": {
+    "key": "APP_ID",
+    "secret": "APP_SECRET",
+    "dynamic": ["scope"],
+    "callback": "/hello",
+    "overrides": {
+      "stars": {
+        "key": "APP_ID",
+        "secret": "APP_SECRET",
+        "dynamic": ["callback"],
+        "transport": "querystring"
+      },
+      "extension": {
+        "dynamic": false,
+        "transport": "querystring",
+        "callback": "https://github.com/extension/callback"
+      },
+      "proxy": {
+        "dynamic": true
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "oauth-like-a-boss",
+  "version": "0.0.0",
+  "description": "Once And For All",
+  "private": true,
+  "license": "MIT",
+  "homepage": "https://github.com/simov/oauth-like-a-boss",
+  "author": "Simeon Velichkov <simeonvelichkov@gmail.com> (https://simov.github.io)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/simov/oauth-like-a-boss.git"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.16.3",
+    "express-session": "^1.15.6",
+    "grant-express": "^4.3.1"
+  },
+  "main": "app.js"
+}
