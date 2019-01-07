@@ -3,6 +3,8 @@
 
 > _Once And For All_
 
+### [:rocket: :sparkles: D E V . T O :sparkles: :rocket:][dev.to]
+
 ## How
 
 1. Create [OAuth App] on GitHub, and set its _Authorization callback URL_ to `http://localhost:3000/connect/github/callback`
@@ -24,3 +26,4 @@ _Login From Another Language_ | Navigate to http://localhost:4000/login
 > _In all cases take a look at the console to see the access token_
 
   [OAuth App]: https://github.com/settings/applications/new
+  [dev.to]: https://dev.to/simov/oauth-like-a-boss-2m3b
